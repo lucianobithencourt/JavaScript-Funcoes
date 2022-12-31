@@ -196,7 +196,7 @@ mostrarMsg()
 
 //  [length,charAt,]
 
-let nome = 'Bitencourt'
+// let nome = 'Bitencourt'
 
 // let totalLetras = nome.length;
 // console.log(totalLetras);
@@ -246,12 +246,55 @@ let nome = 'Bitencourt'
 
 // let frutas = ['pera','uva','mamao']
 
-let presidentes = Array ()
+// let carros = Array ();
 
-presidentes ['brasil'] = Array('collor','dilma','lula','bolsonado')
+// carros ['Anos80'] = Array('variante','brasilia','belina')
 
-// mult ['frutas'][0] = 'pera'
+// carros ['importados'] = Array ('bmw','toyota','honda')
+
+// console.log(carros);
+
+// let insetos = new Array ('formiga','mosca','grilo')
+
+// insetos.push('cigarra')
+// insetos.push('zangão')
+
+// insetos.unshift('caracol')
+// insetos.unshift('pernilongo')
 
 
 
-console.log(presidentes);
+// // pesquisar
+// console.log(insetos.sort());
+
+// 
+// count =0
+// console.log('inicio');
+// while (count<=10) {
+//     count++
+
+
+
+//     console.log(count);
+
+
+//     console.log('fim');
+
+
+// }
+
+// console.log("inicio");
+// i = 0
+// do {
+//     i++
+//     console.log("laço - " + i);
+// } while (i < 10)
+// console.log("fim");
+
+let arrow = (x) => {
+
+    return x**2
+
+}
+
+console.log(arrow(9));
